@@ -1,0 +1,171 @@
+.hover_bkgr_fricc {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  overflow: scroll;
+}
+
+.hover_bkgr_fricc .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.hover_bkgr_fricc>div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 551px;
+  min-height: 100px;
+  vertical-align: middle;
+  width: 60%;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 5%;
+}
+
+.popupCloseButton {
+  background-color: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  font-family: "Poppins";
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.popupCloseButton:hover {
+  background-color: #ccc;
+}
+
+.trigger_popup_fricc {
+  font-size: 20px;
+  margin: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.error{
+  color: #cc0000 ;
+}
+.popup-container input[type="text"],
+textarea {
+  margin: 10px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+
+.jobs,
+.types {
+  margin: 10px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+
+.new-job-description {
+  margin: 10px;
+  padding: 10px;
+  width: 370px;
+  height: 100px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  max-width: 370px;
+  min-width: 370px;
+}
+
+.save-btn {
+  /* width: 100px;
+  background: #20a6fc;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  width: 100px; */
+
+  float: right;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+  width: 100px;
+  background: #20a6fc;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+
+.save-btn:hover {
+  background-color: #f178b6;
+  cursor: pointer;
+}
+
+.popup-header {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popup-header p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #18181b;
+}
+
+.popupCloseButton {
+  background-color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Poppins";
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.company-logo {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  color: #71717A;
+}
